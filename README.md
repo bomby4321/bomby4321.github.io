@@ -1,7 +1,7 @@
 # bomby4321.github.io
 
 ## test 1
-testing
+Page start
 
 ## test 2
 another test
