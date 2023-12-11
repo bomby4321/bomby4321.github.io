@@ -1,7 +1,7 @@
 .hex-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 100px;
     justify-content: center;
 }
 
@@ -11,16 +11,20 @@
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 5px;
 }
 
-.hexagon:nth-child(n+1),
-.hexagon:nth-child(n+1) img {
-    margin-top: -29px;
+.hexagon:nth-child(2n+1) {
+    margin-top: -50px;
 }
 
-.hexagon:nth-child(2n),
-.hexagon:nth-child(n+2) img {
-    margin-top: 29px;
+.hexagon:nth-child(2n){
+    margin-top: 50px;
+}
+
+.hexagon:nth-child(2n+1) img,
+.hexagon:nth-child(2n) img {
+    margin-top: 65px;
 }
 
 .hexagon {
