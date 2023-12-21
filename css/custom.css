@@ -55,3 +55,15 @@
     border-left:50px solid #861f41; 
   }
 
+nw {
+  white-space:nowrap;
+}
+
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 10rem;
+    height: 10rem;
+     /* Invert the icon color for better visibility on dark background */
+}
